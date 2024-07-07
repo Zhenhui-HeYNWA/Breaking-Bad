@@ -1,0 +1,39 @@
+body {
+  font-size: 50px;
+  color: #0e432c;
+}
+
+span {
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+.breaking {
+  display: flex;
+  width: 70px;
+  height: 70px;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  color: #fff;
+  background-color: #0e432c;
+  position: relative;
+}
+
+.breaking span {
+  font-weight: bold;
+}
+
+.breaking p {
+  position: absolute;
+  font-size: 19px;
+  font-weight: bold;
+  top: 0;
+  right: 3px;
+}
